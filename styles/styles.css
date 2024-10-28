@@ -1,63 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@media screen  and (min-width: 769px){
-  p{
+@media screen and (min-width: 769px) {
+  p {
     font-size: 2rem;
   }
-  a{
+
+  a {
     font-size: 2rem;
   }
-  .blogHead{
+
+  .blogHead {
     font-size: 2rem;
   }
-  .blogSubHead{
+
+  .blogSubHead {
     font-size: 1.5rem;
   }
-  .blogContent{
+
+  .blogContent {
     font-size: 1rem;
   }
-  .blogpost *{
+
+  .blogpost * {
     margin: 0 20% 0 20%;
   }
-  .onelined{
+
+  .mobileonly {
     display: none;
   }
-  
+  .navbar{
+    margin:0;
+  }
+
 }
-@media screen  and (max-width: 769px){
-  p{
+
+@media screen and (max-width: 769px) {
+  p {
     font-size: 1.5rem;
   }
-  a{
+
+  a {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .blogHead {
     font-size: 1.5rem;
   }
-  .blogHead{
-    font-size: 1.5rem;
-  }
-  .blogSubHead{
+
+  .blogSubHead {
     font-size: 1rem;
   }
-  .blogContent{
+
+  .blogContent {
     font-size: 1rem;
   }
-  .blogpost *{
+
+  .blogpost * {
     margin: 0 5% 0 5%;
   }
-  
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+  }
+  .navbar li a{
+    padding: 0;
+    text-align: left;
+    margin-left: 30px;
+  }
+
 }
+
 .navbar {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
 }
-  
+
 li {
   float: left;
   background-color: white;
 }
-  
+
 li a {
   display: block;
   color: black;
@@ -65,19 +93,19 @@ li a {
   padding: 14px 16px;
   text-decoration: underline;
   background-color: white;
-  margin:0;
-  
+  margin: 0;
+
 }
 
 li .active {
-  color:#4b54d4;
+  color: #4b54d4;
 }
-  
+
 a:hover {
   text-decoration: underline;
 }
 
-body *{
+body * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -86,35 +114,40 @@ body *{
   text-transform: uppercase;
 }
 
-p{
+p {
   margin-left: 30px;
 }
 
-a{
+a {
   margin-left: 50px;
+  margin-bottom: 15px;
   color: black;
   text-decoration: underline;
   display: block;
 }
 
-img{
+img {
   margin-top: 10px;
   margin-left: 50px;
+  width: clamp(150px,1fr,100%);
 }
 
-.blogpost *{
+.blogpost * {
   text-align: center;
 }
-.blogHead{
+
+.blogHead {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.blogSubHead{
+
+.blogSubHead {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.blogContent{
-  text-transform:none;
+
+.blogContent {
+  text-transform: none;
   text-align: left;
   margin-bottom: 20px;
 }
