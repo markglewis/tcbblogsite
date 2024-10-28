@@ -19,6 +19,9 @@
   .blogpost *{
     margin: 0 20% 0 20%;
   }
+  .onelined{
+    display: none;
+  }
   
 }
 @media screen  and (max-width: 769px){
