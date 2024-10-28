@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@media screen  and (min-width: 769px){
+  p{
+    font-size: 2rem;
+  }
+  a{
+    font-size: 2rem;
+  }
+  .blogHead{
+    font-size: 2rem;
+  }
+  .blogSubHead{
+    font-size: 1.5rem;
+  }
+  .blogContent{
+    font-size: 1rem;
+  }
+  .blogpost *{
+    margin: 0 20% 0 20%;
+  }
+  
+}
+@media screen  and (max-width: 769px){
+  p{
+    font-size: 1.5rem;
+  }
+  a{
+    font-size: 1.5rem;
+  }
+  .blogHead{
+    font-size: 1.5rem;
+  }
+  .blogSubHead{
+    font-size: 1rem;
+  }
+  .blogContent{
+    font-size: 1rem;
+  }
+  .blogpost *{
+    margin: 0 5% 0 5%;
+  }
+  
+}
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -18,7 +60,7 @@ li a {
   color: black;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: white;
   margin:0;
   
@@ -48,7 +90,7 @@ p{
 a{
   margin-left: 50px;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
 }
 
@@ -58,21 +100,17 @@ img{
 }
 
 .blogpost *{
-  margin: 0 20% 0 20%;
   text-align: center;
 }
 .blogHead{
-  font-size: 2rem;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .blogSubHead{
-  font-size: 1.5rem;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .blogContent{
-  font-size: 1rem;
   text-transform:none;
   text-align: left;
   margin-bottom: 20px;
