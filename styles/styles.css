@@ -28,8 +28,9 @@
   .mobileonly {
     display: none;
   }
-  .navbar{
-    margin:0;
+
+  .navbar {
+    margin: 10px 0 10px 0;
   }
 
 }
@@ -60,16 +61,18 @@
     margin: 0 5% 0 5%;
   }
 
-  .navbar{
+  .navbar {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
   }
-  .navbar li a{
+
+  .navbar li a {
     padding: 0;
     text-align: left;
     margin-left: 30px;
+    margin-bottom: 5px;
   }
 
 }
@@ -129,7 +132,7 @@ a {
 img {
   margin-top: 10px;
   margin-left: 50px;
-  width: clamp(150px,1fr,100%);
+  width: clamp(150px, 1fr, 100%);
 }
 
 .blogpost * {
