@@ -135,6 +135,10 @@ img {
   width: clamp(150px, 1fr, 100%);
 }
 
+.header{
+  margin-bottom: 20px;
+}
+
 .blogpost * {
   text-align: center;
 }
